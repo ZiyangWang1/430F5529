@@ -61,7 +61,7 @@
                 </option>
                 <option>
                     <name>RTLibraryPath</name>
-                    <state>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</state>
+                    <state>$TOOLKIT_DIR$\lib\dlib\dl430xlsfn.r43</state>
                 </option>
                 <option>
                     <name>Input variant</name>
@@ -104,11 +104,11 @@
                 </option>
                 <option>
                     <name>GStackSize2</name>
-                    <state>80</state>
+                    <state>160</state>
                 </option>
                 <option>
                     <name>GHeapSize2</name>
-                    <state>80</state>
+                    <state>160</state>
                 </option>
                 <option>
                     <name>RadioDataModelType</name>
@@ -807,7 +807,7 @@
                 </option>
                 <option>
                     <name>XclFile</name>
-                    <state>$TOOLKIT_DIR$\CONFIG\lnk430F149.xcl</state>
+                    <state>$TOOLKIT_DIR$\config\linker\lnk430f5529.xcl</state>
                 </option>
                 <option>
                     <name>XclFileSlave</name>
@@ -935,7 +935,7 @@
                 </option>
                 <option>
                     <name>ExtraOutputFile</name>
-                    <state>templproj.a43</state>
+                    <state>430F5529.a43</state>
                 </option>
                 <option>
                     <name>ExtraOutputFormat</name>
@@ -1100,7 +1100,11 @@
                 <debug>1</debug>
                 <option>
                     <name>CUTest</name>
-                    <state>###Uninitialized###</state>
+                    <state>-I$TOOLKIT_DIR$\inc</state>
+                    <state>-@$TOOLKIT_DIR$\bin\iar.cmd</state>
+                    <state>-@$PROJ_DIR$\source.txt</state>
+                    <state>-@$PROJ_DIR$\include.txt</state>
+                    <state>--preinclude=$PROJ_DIR$\IAR_ULPAdvisor_Defs.h</state>
                 </option>
                 <option>
                     <name>ULPRules</name>
@@ -2254,7 +2258,16 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\096oled.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\096oled.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\configuration.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\font.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>

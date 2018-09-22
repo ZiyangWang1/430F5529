@@ -2098,7 +2098,16 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\096oled.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\096oled.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\configuration.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\font.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>
